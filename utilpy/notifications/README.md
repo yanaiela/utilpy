@@ -1,10 +1,10 @@
 ### Usage
 
-`
+```python
 import email_notification as email
 email.init('path_to_cfg_file')
 email.send_mail('nn', 'more_info')
-`
+```
 
-* For that to work, you need to allow in your email preferences to use the email with an application.
-do so here: https://support.google.com/accounts/answer/6010255
+* For this to work (at least with gmail), you need to allow the use of 'less secure application' in your email preferences.
+Do so here: https://support.google.com/accounts/answer/6010255
